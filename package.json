@@ -1,6 +1,6 @@
 {
   "name": "nextjs-boilerplate",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "",
   "scripts": {
     "build": "npm run build:next && npm run build:server",
@@ -14,21 +14,21 @@
   "dependencies": {
     "@babel/cli": "^7.0.0",
     "@babel/preset-env": "^7.0.0",
-    "@material-ui/core": "^3.0.3",
+    "@material-ui/core": "^3.1.2",
     "@material-ui/icons": "^3.0.1",
-    "@zeit/next-sass": "^0.2.0",
+    "@zeit/next-sass": "^1.0.1",
     "body-parser": "^1.18.3",
     "dotenv": "^6.0.0",
     "dotenv-webpack": "^1.5.7",
     "express": "^4.16.3",
     "helmet": "^3.13.0",
     "jss": "^9.8.7",
-    "next": "^6.1.2",
+    "next": "^7.0.1",
     "node-sass": "^4.9.3",
     "nprogress": "^0.2.0",
     "prop-types": "^15.6.2",
-    "react": "^16.5.1",
-    "react-dom": "^16.5.1",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
     "react-jss": "^8.6.1"
   },
   "devDependencies": {

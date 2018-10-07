@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 class Index extends Component {
   static async getInitialProps() {
-    return { title: 'Nextjs Boilerplate' }
+    return { title: 'Next.js Boilerplate' }
   }
 
   render() {

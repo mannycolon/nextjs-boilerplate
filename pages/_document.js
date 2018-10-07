@@ -6,7 +6,6 @@ class MyDocument extends Document {
   render() {
     const { pageContext } = this.props;
     const appName = '';
-    const shortDescription = '';
     const description = '';
     const url = '';
     const thumbnailUrl = `${url}/static/images/thumbnail.jpg`;
@@ -14,12 +13,10 @@ class MyDocument extends Document {
     const emailAddress = '';
     const classification = 'Business';
     const keywords = '';
-    const title = ''; //`${appName} | ${shortDescription}`
 
     return (
       <html lang="en" dir="ltr">
         <Head>
-          <title>{title}</title>
           <meta charSet="utf-8" />
           {/* Use minimum-scale=1 to enable GPU rasterization */}
           <meta

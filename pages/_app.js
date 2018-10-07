@@ -1,5 +1,6 @@
 import React from 'react'
 import App, { Container } from 'next/app'
+import Head from 'next/head'
 import { MuiThemeProvider } from '@material-ui/core/styles'
 import CssBaseline from '@material-ui/core/CssBaseline'
 import JssProvider from 'react-jss/lib/JssProvider'
@@ -25,6 +26,8 @@ class MyApp extends App {
 
   render() {
     const { Component, pageProps } = this.props
+    const title = 'Page Title here';
+
     return (
       <Container>
         {/* Wrap every page in Jss and Theme providers */}
@@ -40,6 +43,9 @@ class MyApp extends App {
           >
             {/* CssBaseline kickstart an elegant, consistent, and simple baseline to build upon. */}
             <CssBaseline />
+            <Head>
+              <title>{title}</title>
+            </Head>
             {/* Pass pageContext to the _document though the renderPage enhancer
                 to render collected styles on server side. */}
             <Component pageContext={this.pageContext} {...pageProps} />
