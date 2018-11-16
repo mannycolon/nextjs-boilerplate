@@ -41,7 +41,6 @@ class MyDocument extends Document {
           <link rel="canonical" href={url} />
           <link rel="shortcut icon" href="/static/favicon.ico" type="image/x-icon" />
           <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" />
-          <link rel='stylesheet' href='/_next/static/style.css'/>
 
           <meta property="og:type" content="website"/>
           <meta property="og:title" content={description}/>
